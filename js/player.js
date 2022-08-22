@@ -2,9 +2,9 @@ function selectedPlayer(player, playerButton){
     const playerName = document.getElementById(player);
      const name = playerName.innerText;
      const selected = document.getElementById('selected-list');
-     const listi = selected.getElementsByTagName('li').length;
+     const listLength = selected.getElementsByTagName('li').length;
 
-    if(listi < 5){
+    if(listLength < 5){
         const li1 = document.createElement('li');
         li1.innerText = name;
         selected.appendChild(li1);
