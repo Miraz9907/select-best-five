@@ -1,3 +1,7 @@
+.title{
+    font-family: 'Berkshire Swash', cursive;
+    color: rgb(239, 157, 56);
+}
 .top-banner{
     position: relative;
 }
